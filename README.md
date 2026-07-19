@@ -89,5 +89,16 @@ cp -r /path/to/cloned/repo/.[!.]* /path/to/cloned/repo/* /home/username/.config/
 cd /home/username/.config/zsh
 source .zshrc
 ```
+Then: — open a new terminal session (or run `exec zsh`) to see the changes take effect.
 
-You're done — open a new terminal session (or run `exec zsh`) to see the changes take effect.
+### 5. Go to the starship website
+and pick preset from
+```bash
+https://starship.rs/presets/
+```
+Now run the command for the preset you have chosen.
+In my case 
+```bash
+starship preset jetpack -o ~/.config/starship.toml
+```
+### Voilla You are done. 
